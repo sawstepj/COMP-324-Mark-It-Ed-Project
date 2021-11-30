@@ -9,7 +9,7 @@ ul {
 
 li a{
 float: left;
-margin-left: 50px;
+margin-left: 40px;
 margin-right: auto;
 }
 
@@ -27,25 +27,30 @@ li a:hover {
 }
 
 hr{
+  height: 2px;
+  background: black;
   margin-left: 50px;
   margin-right: 50px;
 }
 
 h1{
-margin-left: auto;
-margin-right: auto;
+margin-top: 50px;
 letter-spacing: 2.5px;
 text-align: center;
 }
 
+/* style for company description statement 
+   alignment is not fixed for some reason;
+   resizing the screen will cause the words to move
+   from the center*/
 p1{
 float: left;
-margin-left: 10%;
+margin-left: 33%;
 margin-right: auto;
 font-size: 1.5em;
 letter-spacing: 2px;
-width: 650px;
 text-align: center;
+width: 650px;
 line-height: 40px;
 }
 
@@ -63,6 +68,7 @@ line-height: 40px;
   margin-right:7%;
 }
 
+/* Sign Up button */
 div1 {
   width: 200px;
   padding: 10px;
@@ -71,6 +77,7 @@ div1 {
   text-align: center;
 }
 
+/* Sign Up button */
 div1{
 display: block;  
 float: center;
@@ -83,3 +90,26 @@ div1:hover{
   background-color: rgba(117, 117, 117, 0.315);
   border: 2px solid rgba(3, 3, 3, 0.61);
 }
+/* style for images on 'Resources' page. */
+figure.img {
+  display: inline-block;
+  text-align: center;
+  font-size: 2.0em;
+  font-weight: bold;
+}
+/* style for captions below images in 'Resources' page. */
+.caption {
+  display: block;
+  padding-left: 60px;
+}
+.learn {
+  display: block;
+  border: 2px solid black;
+  
+}
+/* alignment for captions and images in 'Resources' page. */
+div2 {
+  margin-left: 45px;
+}
+
+
