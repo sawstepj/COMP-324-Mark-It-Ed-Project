@@ -17,9 +17,15 @@ li a {
   display: block;
   color: black;
   text-align: left;
-  padding: 10px 50px;
+  padding: 10px 40px;
   text-decoration: none;
   font-size: 1.5em;
+}
+
+/* style for 'Contact Us' and 'Login' nav elements. */
+div3 {
+  font-size: 0.75em;
+  float: right;
 }
 
 li a:hover {
@@ -45,7 +51,7 @@ text-align: center;
    from the center*/
 p1{
 float: left;
-margin-left: 33%;
+margin-left: 10%;
 margin-right: auto;
 font-size: 1.5em;
 letter-spacing: 2px;
@@ -113,14 +119,19 @@ figure.img {
 .learn:hover{
   background-color: rgba(117, 117, 117, 0.315);
 }
+
 /* alignment for captions and images in 'Resources' page. */
 div2 {
   margin-left: 40px;
 }
 
-/* style for signup caption */
-p{
+/*style for Log In form and button on 'Login' page.*/
+.container{
   text-align: center;
+  border: 2px solid #ccc;
+  padding-bottom: 75px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 

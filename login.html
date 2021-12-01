@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Mark-It-Ed - Support</title>
+	<title>Mark-It-Ed - Resources</title>
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -33,6 +33,22 @@
     </ul>
   </nav>
 <hr />
-    <script src="script.js"></script>
-  </body>
-</html>
+<form action="action_page.php">
+  <div class="container">
+    <h1>Log In</h1>
+    
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Log In</button>
+    </div>
+  </div>
+</form>
